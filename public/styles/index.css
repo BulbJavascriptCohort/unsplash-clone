@@ -1,0 +1,19 @@
+.picture-container {
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+ul.picture-container li {
+  width: 33%;
+  height: 300px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+ul.picture-container img {
+  width: 100%;
+}
